@@ -1,26 +1,26 @@
 ## Chapter about user input and while loops
 
-# message = input("Tell me something, and I will repeat it back to you: ")
-# print(message)
+message = input("Tell me something, and I will repeat it back to you: ")
+print(message)
 
-# prompt = "If you tell us who you are, we can personalize the messages you see."
-# prompt += "\nWhat is your first name? "
-# name = input(prompt) # input interprets everything as strings
-# print("\nHello, " + name + "!")
+prompt = "If you tell us who you are, we can personalize the messages you see."
+prompt += "\nWhat is your first name? "
+name = input(prompt) # input interprets everything as strings
+print("\nHello, " + name + "!")
 
-# height = input("How tall are you, in meter? ")
-# height = float(height)
-# if height >= 1.7:
-#     print("\nYou're tall enough to ride!")
-# else:
-#     print("\nYou'll be able to ride when you're a little older.")
+height = input("How tall are you, in meter? ")
+height = float(height)
+if height >= 1.7:
+    print("\nYou're tall enough to ride!")
+else:
+    print("\nYou'll be able to ride when you're a little older.")
 
-# number = input("Enter a number, and I'll tell you if it's even or odd: ")
-# number = int(number)
-# if number % 2 == 0:
-#     print("\nThe number " + str(number) + " is even.")
-# else:
-#     print("\nThe number " + str(number) + " is odd.")
+number = input("Enter a number, and I'll tell you if it's even or odd: ")
+number = int(number)
+if number % 2 == 0:
+    print("\nThe number " + str(number) + " is even.")
+else:
+    print("\nThe number " + str(number) + " is odd.")
 
 ## WHILE LOOPS
 current_number = 1
